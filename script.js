@@ -2,7 +2,7 @@ showtask(0);
 var inputBox = document.getElementById("input-box");
 var addBtn = document.getElementById("add-btn");
 addBtn.addEventListener("click", addTask);
-
+var taskObj = [];
 function addTask() {
 	var inputBoxVal = inputBox.value.trim();
 	if (inputBoxVal == "") {
