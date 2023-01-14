@@ -32,7 +32,7 @@ function showtask(type) {
 	let localTask = localStorage.getItem("tasks");
 	let addedtasklist = document.getElementById("task-list");
 	if (localTask == null) {
-		taskObj == [];
+		taskObj = [];
 	} else {
 		taskObj = JSON.parse(localTask);
 	}
